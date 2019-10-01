@@ -28,7 +28,7 @@ $map['1'] = [
 
 return [
 	'title' => '成绩统计',
-    'sign' => 'open356.com',
+    'sign' => 'test.com',
     'statement' => '数据仅供参考',
     'score' => [
         'map' => $map,
