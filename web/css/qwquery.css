@@ -1,12 +1,9 @@
-/**
- * QWQUERY
- * @author ZNEIAT<1149527164@qq.com>
- */
+
 
 html, body {
     height: 100%;
     font-family: Roboto, "Helvetica Neue", "PingFangSC-Light", "Hiragino Sans GB", "Microsoft YaHei", "WenQuanYi Micro Hei", sans-serif;
-    background-color: #f3f3f3;
+    background-color: #ffffff;
     margin: 0;
     font-size: 14px;
     line-height: 1.42857143;
@@ -36,7 +33,7 @@ a {
 }
 
 .footer {
-    height: 60px;
+    height: 0px;
     background-color: #f5f5f5;
     border-top: 1px solid #ddd;
     padding-top: 20px;
@@ -342,11 +339,11 @@ a.desc:after {
 }
 
 .top-header .main-navbar {
-    height: 55px;
+    height: 0px;
     overflow: hidden;
     position: fixed;
     width: 100%;
-    background: #32c787;
+    background: #333;
     color: #FFFFFF;
     padding: 0 15px;
     box-shadow: 0 1px 10px rgba(0, 0, 0, 0.2);
@@ -483,21 +480,21 @@ a.desc:after {
 }
 
 .wrap .sidebar {
-    width: 270px;
+    width: 200px;
     position: fixed;
     z-index: 3;
     left: 0;
-    padding-top: 55px;
+    padding-top: 0px;
     height: 100%;
-    background-color: #FFFFFF;
+    background-color: #333;
     box-shadow: 0 1px 3px rgba(0, 0, 0, 0.05);
     overflow-y: auto;
-    transform: translate(0px, 0px);
+    transform: translate(-200px, 0px);
     transition: transform 450ms cubic-bezier(0.23, 1, 0.32, 1) 0ms;
 }
 
 .wrap .sidebar.sidebar-hide {
-    transform: translate(-270px, 0px) !important;
+    transform: translate(150px, 0px) !important;
 }
 
 .wrap .sidebar .widget {
@@ -589,10 +586,11 @@ a.desc:after {
 }
 
 .wrap .main-content-area {
-    padding-left: 300px;
-    padding-right: 25px;
-    padding-top: 80px;
-    padding-bottom: 10px;
+    padding-left: 200px;
+    padding-right: 0px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    height:100%;
 }
 
 
