@@ -1,22 +1,39 @@
 <?php
 $map = [];
-$map['93_2_201804'] = [
-    'label' => '毕业第二次月考',
-    'fields' => [YW, SX, YY, WL, HX, ZZ, LS]
-];
-$map['93_1_201803'] = [
-    'label' => '毕业第一次月考',
-    'fields' => [YW, SX, YY, WL, HX, ZZ, LS]
+
+$map['5'] = [
+    'label' => '第3次月考',
+    'fields' => [XM,ZF,PM,YW,YWPM, SX,SXPM, YY,YYPM, WL,WLPM, HX,HXPM,SW,SWPM]
 ];
 
+$map['4'] = [
+    'label' => '第2次月考',
+    'fields' => [XM,ZF,PM,YW,YWPM, SX,SXPM, YY,YYPM, WL,WLPM, HX,HXPM,SW,SWPM]
+];
+
+$map['3'] = [
+    'label' => '第2次开学考试',
+    'fields' => [XM,ZF,PM,YW,YWPM, SX,SXPM, YY,YYPM, WL,WLPM, HX,HXPM,SW,SWPM]
+];
+
+$map['2'] = [
+    'label' => '第1次月考',
+    'fields' => [XM,ZF,PM,YW,YWPM, SX,SXPM, YY,YYPM, WL,WLPM, HX,HXPM,SW,SWPM]
+];
+$map['1'] = [
+    'label' => '开学考试',
+    'fields' => [XM,ZF,PM,YW,YWPM, SX,SXPM, YY,YYPM, WL,WLPM, HX,HXPM,SW,SWPM]
+];
+
+
 return [
-	'title' => '2018届初中成绩统计',
-    'sign' => 'QwQAQ.com',
-    'statement' => '数据均来源于网络，仅供参考',
+	'title' => '成绩统计',
+    'sign' => 'open356.com',
+    'statement' => '数据仅供参考',
     'score' => [
         'map' => $map,
-        'normalTableId' => '93_1_201803',
+        'normalTableId' => '1',
     ],
-    'cookieValidationKey' => '',
+    'cookieValidationKey' => 'rgttttt89997',
 	'baidu_tongji' => '',
 ];
